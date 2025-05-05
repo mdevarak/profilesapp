@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';      <!-- Restricts resources to only load from same origin -->
+    script-src 'self' 'unsafe-inline';
     style-src 'self' 'unsafe-inline';  <!-- Allows styles from same origin and inline styles -->
     img-src 'self' data:;    <!-- Allows images from same origin and data URLs -->
     connect-src 'self';      <!-- Restricts AJAX/WebSocket connections to same origin -->
